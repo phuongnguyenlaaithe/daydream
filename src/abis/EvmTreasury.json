@@ -1,0 +1,23 @@
+[
+    {
+      "inputs": [
+        { "internalType": "address", "name": "module", "type": "address" },
+        { "internalType": "uint256", "name": "value", "type": "uint256" },
+        { "internalType": "bytes", "name": "data", "type": "bytes" }
+      ],
+      "name": "callModule",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        { "internalType": "uint256", "name": "amount", "type": "uint256" }
+      ],
+      "name": "transferToTulip",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    }
+  ]
+  
